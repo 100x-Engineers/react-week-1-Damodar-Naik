@@ -1,5 +1,10 @@
+import Login from "./pages/Login";
+import UserProfile from ".//components/Home-feed/UserProfile";
+import HomeFeed from "./pages/HomeFeed";
+
+
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (<HomeFeed />);
 }
 
 export default App;
