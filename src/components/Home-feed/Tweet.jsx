@@ -63,6 +63,6 @@ Tweets.propTypes = {
     commentsCount: PropTypes.number.isRequired,
     reTweetCount: PropTypes.number.isRequired,
     likesCount: PropTypes.number.isRequired,
-    reachCount: PropTypes.number.isRequired,
+    reachCount: PropTypes.string.isRequired,
     tweetText: PropTypes.string.isRequired,
 }
