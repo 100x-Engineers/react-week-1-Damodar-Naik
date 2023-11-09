@@ -6,7 +6,7 @@ import ProfileInactive from '../assets/profile-inactive.svg'
 import Logo from '../assets/100x.svg'
 
 
-import UserAvatar from '../components/userAvatar';
+import UserAvatar from '../components/Home-feed/userAvatar';
 import TweetsComponent from '../components/Home-feed/Tweet';
 import { useState } from 'react';
 import AddTweetButton from '../components/AddTweetButton';
